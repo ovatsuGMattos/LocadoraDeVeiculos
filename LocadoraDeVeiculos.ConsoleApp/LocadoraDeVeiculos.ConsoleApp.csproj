@@ -7,4 +7,32 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="locadoradeveiculos.configuracoes\LocadoraDeVeiculos.Configuracoes.csproj" />
+    <None Include="locadoradeveiculos.controladores\LocadoraDeVeiculos.Controladores.csproj" />
+    <None Include="locadoradeveiculos.db\LocadoraDeVeiculos.DB.sqlproj" />
+    <None Include="locadoradeveiculos.dominio\LocadoraDeVeiculos.Dominio.csproj" />
+    <None Include="locadoradeveiculos.infra.arquivos\LocadoraDeVeiculos.Infra.Arquivos.csproj" />
+    <None Include="locadoradeveiculos.infra.internet\LocadoraDeVeiculos.Infra.Internet.csproj" />
+    <None Include="locadoradeveiculos.infra.log\LocadoraDeVeiculos.Infra.Log.csproj" />
+    <None Include="locadoradeveiculos.infra.orm\LocadoraDeVeiculos.Infra.ORM.csproj" />
+    <None Include="locadoradeveiculos.servicos\LocadoraDeVeiculos.Servicos.csproj" />
+    <None Include="locadoradeveiculos.tests\LocadoraDeVeiculos.Test.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="LocadoraDeVeiculos.DB\dbo.Tables\" />
+    <Folder Include="LocadoraDeVeiculos.WindowsApp\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="8.8.0" />
+    <PackageReference Include="itext7" Version="9.4.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.0" />
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="MSTest.TestFramework" Version="4.0.2" />
+    <PackageReference Include="Serilog" Version="4.3.0" />
+    <PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
+  </ItemGroup>
+
 </Project>
